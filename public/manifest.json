@@ -1,0 +1,56 @@
+{
+  "short_name": "매스플랫 - 선생님앱",
+  "name": "매쓰플랫 - 선생님앱",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/assets/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?app=pwa",
+  "display": "standalone",
+  "display_override": ["fullscreen", "minimal-ui"],
+  "theme_color": "#30bbff",
+  "orientation": "landscape",
+  "background_color": "#30bbff",
+  "scope": "/",
+  "categories": ["books", "education", "kids", "business", "productivity"],
+  "related_applications": [
+    {
+      "platform:": "play",
+      "url": "https://play.google.com/store/apps/details?id=iclass.mathflat.parent.student", 
+      "id": "iclass.mathflat.parent.student"
+    },
+    {
+      "platform:": "webapp",
+      "url": "https://student.mathflat.com",
+      "id": "student.mathflat.com"
+    },
+    {
+      "platform:": "play",
+      "url": "https://play.google.com/store/apps/details?id=iclass.mathflat.attendance", 
+      "id": "iclass.mathflat.attendance"
+    },
+    {
+      "platform:": "webapp",
+      "url":"https://attendance.mathflat.com",
+      "id": "attendance.mathflat.com"
+    }
+  ]
+}
